@@ -1,0 +1,115 @@
+body{
+	font-family: Tahoma;
+}
+
+.main{
+	width: 800px;
+	background-color: orange;
+	margin: 0px auto;
+}
+
+
+aside{
+	background-color: green;
+}
+
+
+
+footer{
+	
+	background-color: #8c1a1a;
+}
+
+nav{
+	background-color: #000000;
+}
+
+
+nav>ul{
+	text-align: center;
+	background-color: green;
+	height: 37px;
+}
+
+nav>ul>li{
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: purple;
+	position: relative;
+	top:8px;
+	font-family: Tahoma;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav>ul>li>a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+
+
+.gallerybox{
+	width: 60px;
+	display:inline-block;
+}
+
+.small{
+	width: 60px;
+	height: 60px;
+}
+
+nav>ul>li>a:hover{
+	text-decoration: none;
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+h1{
+	background-color: red;
+}
+
+footer{
+	text-align: center;
+	width: 800px;
+}
+
+.leftaside{
+	width: 200px;
+	background-color: #2B7309;
+	float:left;
+
+}
+
+main{
+	background-color: yellow;
+	width: 400px;
+	float:left;
+}
+
+
+
+.rightasisde{
+	width: 200px;
+	background-color: pink;
+	float:left;
+
+}
+
+footer{
+	clear: left;
+}
+
+
+.menu>li{
+	list-style-type: none;
+	font-size: 12px;
+
+}
+
+.menu>li>a{
+	text-decoration: none;
+}
+
